@@ -63,7 +63,7 @@ Todos los endpoints deberán utilizar los siguientes códigos de estado HTTP de 
 
 - Express + TypeScript
 - Prisma + PostgreSQL
-- Estructura: src/routes, src/entities, src/controllers
+- Estructura: src/routes, src/entities, src/controllers, src/utils
 - Variables de entorno con .env (conexión DB, puerto)
 - Criterio de aceptación: un test de "health check" (GET /health → 200) pasando en verde.
 - Fuera de alcance de este spec: autenticación real, subida de imágenes, cualquier lógica de status transitions.
